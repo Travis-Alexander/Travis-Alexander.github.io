@@ -23,4 +23,8 @@ My core design is based off of past projects. After learning navbars and seeing 
 - https://github.com/Travis-Alexander/Travis-Alexander.github.io
 
 ## Designs
-!()
+Large Screens
+![LargeDesignImage](proposal/unitProject3.png)
+
+Mobile
+![MobileDesignImage](proposal/mobile.png)
