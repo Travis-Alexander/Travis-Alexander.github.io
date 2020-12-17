@@ -93,7 +93,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  background: #000000;
+  background: var(--main-gray);
   box-shadow: 0 2px 0 rgba(178, 177, 180, 0.4);
   z-index: 10;
 }
@@ -136,14 +136,15 @@ img {
   width: 100%;
   height: 100vh;
   background-color: black ;
-  background-image: linear-gradient(62deg, #0e0747 0%, #031299 100%);
+  background-image: linear-gradient(62deg, #979797 0%, #d8d8db 100%);
+  color:var(--main-gray)
 }
 
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: #121213;
+  color: var(--main-gray);
 }
 
 .bio {
@@ -156,7 +157,7 @@ img {
 .biography {
   text-align: center;
   max-width: 50%;
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(228, 228, 228);
   max-height: fit-content;
   padding: 2%;
   flex: 1;
@@ -165,18 +166,18 @@ img {
 .skills {
   text-align: center;
   max-width: 50%;
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(233, 233, 233);
   max-height: fit-content;
   flex: 1;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 2%;
 }
 
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: rgba(1, 1, 73, 0.952);
-  box-shadow: 20px 0 0 rgb(255, 255, 255);
+  background: rgba(180, 228, 235, 0.952);
+  color:black;
 }
 
 .projects-section-header {
@@ -224,7 +225,7 @@ img {
 }
 
 .project:hover .code {
-  color: #91ebee;
+  color: #fd0000;
 }
 
 .project-image {
