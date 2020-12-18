@@ -127,15 +127,15 @@ img {
   width: 100%;
   height: 100vh;
   background-color: black;
-  background-image: linear-gradient(62deg, #979797 0%, #d8d8db 100%);
-  color: var(--main-gray);
+  background-image: linear-gradient(62deg, #000000 0%, #000000 100%);
+  color: white;
 }
 
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-gray);
+  color:white;
 }
 
 .bio {
@@ -143,15 +143,13 @@ img {
   flex-wrap: wrap;
   text-align: center;
   max-width: 100%;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(116, 190, 196);
   max-height: fit-content;
   padding: 2%;
   flex: 1;
 }
 
-.biography {
-  margin-top: 2%;
-}
+
 
 .skills {
   margin-top: 5%;
@@ -180,7 +178,7 @@ img {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
