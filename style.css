@@ -127,15 +127,15 @@ img {
   width: 100%;
   height: 100vh;
   background-color: black;
-  background-image: linear-gradient(62deg, #000000 0%, #000000 100%);
-  color: white;
+  background-image: linear-gradient(62deg, #1f67a1 0%, #c2d3e9 100%);
+  color: rgb(0, 0, 0);
 }
 
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color:white;
+  color:rgb(14, 13, 13);
 }
 
 .bio {
@@ -143,8 +143,7 @@ img {
   flex-wrap: wrap;
   text-align: center;
   max-width: 100%;
-  background-color: rgb(116, 190, 196);
-  max-height: fit-content;
+  background-color: rgba(180, 228, 235, 0.952);
   padding: 2%;
   flex: 1;
 }
