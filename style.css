@@ -150,6 +150,32 @@ img {
   background-position: center;
   background-size: cover;
 }
+
+
+
+.left-box1 {
+  background-color: rgba(146, 185, 190, 0.952);;
+  flex: 1;
+  padding: 2rem 6rem;
+  text-align: center;
+  color: white;
+  box-shadow: 15px 25px 25px rgba(116, 161, 161, 0.9);
+  line-height: 3.3 !important;
+  border-radius: 0%;
+  /* border: solid 1px black; */
+}
+
+.right-box1 {
+  background-color: rgba(146, 185, 190, 0.952);
+  flex: 1;
+  padding: 2rem 4rem;
+  justify-content: center;
+  color: white;
+  box-shadow: 5px 10px 10px rgba(116, 161, 161, 0.9);
+  font-family: 'Nanum Gothic', sans-serif !important;
+  font-size: 20px;
+  /* border: solid 1px black; */
+}
 .avatar {
   vertical-align: middle;
   max-width: 175px;
