@@ -144,7 +144,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-weight: 400;
+  
   color: white;
   background-image: url(Images/blue2.jpg);
   background-position: center;
@@ -263,7 +263,10 @@ img {
 
 .project-title {
   font-size: 2rem;
-  padding: 2rem 0.5rem;
+  padding: -2rem 25px;
+}
+.project-description {
+  font-size: 1.4rem;
 }
 
 .btn {
