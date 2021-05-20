@@ -214,6 +214,8 @@ img {
   border-bottom: 0.2rem solid var(--main-white);
 }
 
+
+
 @media (max-width: 28.75em) {
   .projects-section-header {
     font-size: 4rem;
@@ -229,8 +231,14 @@ img {
   margin: 0 auto;
   margin-bottom: 2rem;
 }
+@media (max-width: 1200px){
+  .projects-grid{
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+  }
 
-@media (max-width: 30.625em) {
+}
+
+@media (max-width: 780px) {
   .projects-section {
     padding: 6rem 1rem;
   }
